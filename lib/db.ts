@@ -2,13 +2,13 @@ const data = {
     general: {
         NUMBER_SYNTAX_ERROR:
             "```Enter a valid contact number as per the syntax below:\n    1. XXXXXXXXXX\n    2. Tag the person\n    3. YYXXXXXXXXXX (YY- Country Code, without zeros)```",
-        MESSAGE_NOT_TAGGED: "```Tag a message or enter a number.```",
+        MESSAGE_NOT_TAGGED: "```Beri tag pesan atau masukkan nomor.```",
         NOT_A_GROUP: "```Command only applicable in a group chat.```",
         BOT_NOT_ADMIN:
-            "```Sorry, don't have permission to do so since I am not an admin.```",
-        ADMIN_PERMISSION: "```You need to be an admin to execute this command.```",
+            "```Maaf, tidak memiliki izin untuk melakukannya karena saya bukan admin.```",
+        ADMIN_PERMISSION: "```Anda harus menjadi admin untuk menjalankan perintah ini.```",
         SUDO_PERMISSION:
-            "```Hey there, I am 💠BotsApp💠. I guess you were trying to use my commands in``` *{BotsApp.groupName}*```. However, the bot is currently in {worktype} mode. This enables only the owner and sudo users to use the command``` *{commandName}* ```.\n\nIf you are keen to use my features, you can deploy BotsApp on your own account without much effort, in less than 5 minutes! Check out the links given below.```\n\n🔗https://mybotsapp.com\n🔗https://github.com/BotsAppOfficial/BotsApp",
+            "```Hei, saya 💠FahriBot💠. Saya kira Anda mencoba menggunakan perintah saya di``` *{BotsApp.groupName}*```. However, the bot is currently in {worktype} mode. This enables only the owner and sudo users to use the command``` *{commandName}* ```.\n\nIf you are keen to use my features, you can deploy BotsApp on your own account without much effort, in less than 5 minutes! Check out the links given below.```\n\n🔗https://mybotsapp.com\n🔗https://github.com/BotsAppOfficial/BotsApp",
         ERROR_TEMPLATE:
             "```Looks like something went wrong. Need not worry. Here are some logs since when the bot was not responding as expected.```\n```---------```\n```🧐 Command:``` *{commandName}*\n```😎 From Me?:``` *{fromMe}*\n```🗣️ Was a reply?:``` *{isReply}*\n```👥 In a group?``` *{isGroup}*\n```📥 In Inbox?``` *{isPm}*\n```📸 Command with image?``` *{isImage}*\n```🕺🏻 Is Bot group admin?``` *{isBotGroupAdmin}*\n```📈 Was Sender group admin?``` *{isSenderGroupAdmin}*\n```🫂 Was sender sudo?``` *{isSenderSudo}*\n```⚠️ Error:``` \n*{err}*\n```---------```\n_To figure out what exactly went wrong, please report/raise the issue on our support chat at_ https://chat.whatsapp.com/GRPWL8TBVq91lQig9JoqME",
         SUCCESSFUL_CONNECTION:
@@ -56,7 +56,7 @@ const data = {
         EXTENDED_DESCRIPTION:
             "```This module can be used to check if the bot is currently online or not.\n\nExample usage,```\n*.alive*",
         ALIVE_MSG:
-            "```💠 BotsApp has been integrated successfully. 💠\n\nUse the ```  *.help*  ``` command to get a list of plugins that will make your WhatsApp experience much easier.\n\nIf you are impressed with my service, consider supporting the Bot on GitHub-\n```https://github.com/BotsAppOfficial/BotsApp\n\n```Check out our official website for any new updates.```",
+            "```💠 FahriBot has been integrated successfully. 💠\n\nUse the ```  *.help*  ``` command to get a list of plugins that will make your WhatsApp experience much easier.\n\nIf you are impressed with my service, consider supporting the Bot on GitHub-\n```https://github.com/BotsAppOfficial/BotsApp\n\n```Check out our official website for any new updates.```",
     },
     block: {
         DESCRIPTION: "Block contact",
@@ -148,10 +148,10 @@ const data = {
     help: {
         DESCRIPTION: "Get the command list and info on modules",
         EXTENDED_DESCRIPTION:
-            "This module is used to get info on other modules and their triggers.",
-        HEAD: "🌀 *BotsApp Menu* 🌀\n```Use .help command for detailed info on a module.```",
+            "Modul ini digunakan untuk mendapatkan info tentang modul lain dan pemicunya.",
+        HEAD: "🌀 *FahriBot Menu* 🌀\n```Use .help command for detailed info on a module.```",
         TEMPLATE: "\n\n🤖 *Command* - ```{}```\n💡 *Info* - ```{}```",
-        COMMAND_INTERFACE: "🌀 *BotsApp Command Interface* 🌀\n\n",
+        COMMAND_INTERFACE: "🌀 *FahriBot Command Interface* 🌀\n\n",
         COMMAND_INTERFACE_TEMPLATE: "💠 *Triggers -* ```{}```\n📚 *Info -* {}",
         FOOTER:
             "```\n\nClick on the button below to get a preview of the plugin.```",
@@ -159,16 +159,16 @@ const data = {
     invite: {
         DESCRIPTION: "Module to create group invite link",
         EXTENDED_DESCRIPTION:
-            "```Use this module to send a group invite link in the group or personally to someone.```",
-        LINK_SENT: "```Invite link sent in DM, please check.```",
+            "```Gunakan modul ini untuk mengirim link undangan grup dalam grup atau secara pribadi kepada seseorang.```",
+        LINK_SENT: "```Undang tautan yang dikirim dalam DM, silakan periksa.```",
     },
     lyrics: {
         DESCRIPTION: "Module to find lyrics of song",
         EXTENDED_DESCRIPTION:
             "```Use this module to find the lyrics of a song by using```  *.lyrics*  ```command.```",
         NO_ARG: "```Please enter the song name.```",
-        NOT_FOUND: "```Song not found !```",
-        PROCESSING: "```Searching. Please wait....```",
+        NOT_FOUND: "```Lagu tidak ditemukan!```",
+        PROCESSING: "```Mencari. Harap tunggu....```",
     },
     meaning: {
         DESCRIPTION: "Find meaning of a word in dictionary.",
