@@ -117,7 +117,7 @@ setInterval(() => {
                     } else if (connection === 'connecting') {
                         console.log(chalk.yellowBright("[INFO] Connecting to WhatsApp..."));
                     } else if (connection === 'open') {
-                        console.log(chalk.greenBright.bold("[INFO] Connected! Welcome to BotsApp"));
+                        console.log(chalk.greenBright.bold("[INFO] Connected! Welcome to FahriBot"));
                     }
                 }
 
@@ -174,7 +174,7 @@ setInterval(() => {
                             }
                             const reactionMessage = {
                                 react: {
-                                    text: "🪄",
+                                    text: "👌🏻",
                                     key: chat.key,
                                 }
                             }
